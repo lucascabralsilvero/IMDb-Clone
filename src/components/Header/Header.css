@@ -1,0 +1,52 @@
+.header {
+    margin: 0 2.5rem;
+    padding: .5rem 0;
+    align-items: center;
+    display: flex;
+    justify-content:space-between;
+
+}
+
+.header__icon {
+    width: 80px;
+    cursor: pointer;
+}
+
+.headerLeft{
+    display: flex;
+    align-items: center;
+}
+
+
+a > span{
+    margin: 0 30px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: white;
+}
+
+a > span:hover {
+    color: red;
+}
+
+
+.user__avatar {
+    font-size: 2rem;
+}
+
+
+@media only screen and (max-width:500px) {
+    .header{
+        margin: 0 0 0 ;
+        min-width: 100vw;
+        overflow-x: hidden;
+        padding-left: 0.8rem;
+    }
+
+    a > span{
+        margin: 0 8px;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    
+}
