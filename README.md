@@ -1,4 +1,4 @@
-# IMDb Clone - Coderhouse
+# IMDb Clone 
 
 ![Nombre](https://i.ibb.co/fdkXh9w/Screenshot-1.png "Nombre")
 
